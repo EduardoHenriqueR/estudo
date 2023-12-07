@@ -1,0 +1,23 @@
+### Cadastrar
+POST https://localhost:7126/api/categoria/cadastrar
+Content-Type: application/json
+
+{
+    "Nome": " Itens de Cura",
+    "Descricao": null
+}
+
+### Listar
+GET https://localhost:7126/api/categoria/listar
+
+### Atualizar
+PUT https://localhost:7126/api/categoria/atualizar/3
+Content-Type: application/json
+
+{
+    "Nome": "Madeira",
+    "Descricao": "Ahhhhh"
+}
+
+### Deletar
+DELETE https://localhost:7126/api/categoria/deletar/2

@@ -1,0 +1,35 @@
+### Cadastrar
+POST https://localhost:7126/api/item/cadastrar
+Content-Type: application/json
+
+{
+    "Nome": " Pedra",
+    "Quantidade": 15,
+    "Efeito": "Não tem",
+    "CategoriaId": 1
+}
+
+### Listar
+GET https://localhost:7126/api/item/listar
+
+### Listar-Efeito
+GET https://localhost:7126/api/item/listar-efeito
+
+### Atualizar
+PUT https://localhost:7126/api/item/atualizar/2
+Content-Type: application/json
+
+{
+    "Nome": "Madeira",
+    "Quantidade": 5,
+    "Efeito": "Não"
+}
+
+### Atualizar Durabilidade
+PUT https://localhost:7126/api/item/atualizar-durabilidade/1
+
+### Deletar 
+DELETE https://localhost:7126/api/item/deletar/2
+
+### Buscar
+GET https://localhost:7126/api/item/buscar/1
